@@ -1,5 +1,9 @@
 # Tab Number Shortcut
 
+A Chrome extension that provides quick tab navigation using keyboard shortcuts. Hold the Command key (⌘) to see tab numbers appear in the tab bar, then press Command+[1-9] to instantly switch to any tab.
+
+## Features
+
 - **Visual Tab Numbers**: Hold Command to see numbers appear in all tab titles
 - **Quick Navigation**: Press Command+1-9 to switch to tabs instantly
 - **Clean Interface**: Numbers appear directly in the browser's tab bar
@@ -18,11 +22,7 @@ When you hold the Command key, you'll see tab numbers appear like this:
 - `[4] GitHub`
 - `[5] Luvelan`
 
-Then simply press Command+[number] to switch to any tab instantly!r Shortcut
-
-A Chrome extension that provides quick tab navigation using keyboard shortcuts. Hold the Command key (⌘) to see tab numbers appear in the tab bar, then press Command+[1-9] to instantly switch to any tab.
-
-## Features
+Then simply press Command+[number] to switch to any tab instantly!
 
 - **Visual Tab Numbers**: Hold Command to see numbers appear in all tab titles
 - **Quick Navigation**: Press Command+1-9 to switch to tabs instantly
