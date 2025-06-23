@@ -79,15 +79,13 @@ The extension consists of two main components:
 - **Tab Number Display**: Modifies `document.title` to show numbers in browser tab bar
 - **Error Handling**: Robust handling of extension context invalidation and tab navigation
 
-## File Structure
+## 📁 File Structure
 
 ```
 TabNumberingExtension/
 ├── manifest.json          # Extension configuration
 ├── background.js           # Service worker for tab management
 ├── content.js             # Content script for displaying numbers
-├── styles.css             # CSS styles (unused in current version)
-├── popup.html             # Extension popup interface
 └── README.md              # Documentation
 ```
 
