@@ -79,7 +79,7 @@ The extension consists of two main components:
 - **Tab Number Display**: Modifies `document.title` to show numbers in browser tab bar
 - **Error Handling**: Robust handling of extension context invalidation and tab navigation
 
-## 📁 File Structure
+## File Structure
 
 ```
 TabNumberingExtension/
