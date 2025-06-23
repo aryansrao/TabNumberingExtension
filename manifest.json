@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Number Shortcut",
+  "version": "1.0",
+  "description": "Quick tab navigation with Command+number shortcuts. Hold Command to see tab numbers.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "switch-to-tab-1": {
+      "suggested_key": {
+        "default": "Ctrl+1",
+        "mac": "Command+1"
+      },
+      "description": "Switch to tab 1"
+    },
+    "switch-to-tab-2": {
+      "suggested_key": {
+        "default": "Ctrl+2",
+        "mac": "Command+2"
+      },
+      "description": "Switch to tab 2"
+    },
+    "switch-to-tab-3": {
+      "suggested_key": {
+        "default": "Ctrl+3",
+        "mac": "Command+3"
+      },
+      "description": "Switch to tab 3"
+    },
+    "switch-to-tab-4": {
+      "suggested_key": {
+        "default": "Ctrl+4",
+        "mac": "Command+4"
+      },
+      "description": "Switch to tab 4"
+    }
+  }
+}
